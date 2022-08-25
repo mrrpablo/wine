@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    background: url(./img/background.png);
+    background-repeat: no-repeat;
+}
+
+.food {
+    background: url(./img/unsplash_X-murw_536U.png);
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    float: right;
+    left: 85%;
+    top: 40%;
+}
+
+nav {
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.navbar {
+    display: flex;
+    align-items: center;
+}
+
+ul.navbar li {
+    list-style: none;
+    margin-right: 2em;
+}
+
+ul.navbar a {
+    text-decoration: none;
+    color: #25200E;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+ul.navbar a:hover,
+ul.navbar a:focus{
+    text-decoration: underline;
+    color: #FAAA55;
+    /* width: 12px; */
+    /* transition: all .3s ease-in-out; */
+    /* border-bottom: 1.5px solid #FAAA55; */
+}
+
+.top {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+
+}
+
+.line-1 {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+.middle {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    
+}
+
+.decor p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 65px;
+    color: #231D17;
+}
+
+.line-2 {
+    position: absolute;
+    top: 42%;
+    left: 55%;
+    margin-top: .5em;
+}
+
+.bottom {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
+
+.wine {
+    position: absolute;
+    top: 70%;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, 38%);
+    background: #FFFFFF;
+    border: 2px solid rgba(166, 166, 173, 0.5);
+    border-radius: 8px;
+    padding: 1em 4em;
+}
+
+.card h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #25200E;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 30%;
+    border: 1px solid #FAAA55;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    margin: 2em 0;
+}
+
+.cards img {
+    margin-top: 1em;
+    width: 50px;
+}
+
+.one p {
+    margin-top: 1.2em;
+}
+
+.two p {
+    margin-top: .9em;
+}
+
+.one p,
+.two p,
+.three p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #25200E;
+}
+
+.text {
+    width: 35%;
+    position: absolute;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+    top: 120%;
+}
+
+.text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #25200E;
+}
+
+.section-one {
+    padding-top: 25em;
+    padding-bottom: 10em;
+}
+
+.hero-one h1 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    color: #25200E;
+}
+
+.desc-one {
+    margin-left: 3em;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.desc-text {
+    margin-top: 1em;
+}
+
+.desc-text p {
+    margin-bottom: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #25200E;
+}
+
+.desc-text img {
+    position: absolute;
+    margin-top: .5em;
+    margin-left: 1em;
+}
+
+.rec {
+    z-index: -1;
+    position: relative;
+    left: 10%;
+    bottom: 15px;
+}
+
+.snack {
+    position: absolute;
+    left: 30%;
+    margin-top: 50px;
+}
+
+.snackk {
+    position: absolute;
+    left: 34%;
+    margin-top: 15em;
+}
+
+.snackkk {
+    position: absolute;
+    left: 28%;
+    margin-top: 25em;
+}
+
+.hero-two {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 12em;
+}
+
+.desc-two {
+    width: 35%;
+}
+
+.desc-two h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.desc-two p {
+    margin-top: 2em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+form {
+    margin-top: 2em;
+}
+
+form input {
+    padding: .8em 4.5em;
+    background: #FFFFFF;
+    border: 1px solid #A6A6AD;
+    margin-right: 1em;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A6A6AD;
+    font-family: 'DM Sans', sans-serif;
+}
+
+form button {
+    background: #25200E;
+    box-shadow: 0px 4px 8px rgba(166, 166, 173, 0.5);
+    border: none;
+    outline: none;
+    padding: .5em 3em;
+}
+
+
+form a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.rec-2 {
+    position: absolute;
+    right: .01%;
+    z-index: -1;
+    margin-top: 3em;
+}
+
+.mail {
+    position: absolute;
+    right: .1%;
+}
+
+footer {
+    margin-top: 23em;
+    background: #25200E;
+    padding: 2em 0;
+}
+
+.footer-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.footer {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+ul.footer li {
+    list-style: none;
+}
+
+ul.footer a {
+    color: #FAAA55;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul.footer a:hover,
+ul.footer a:focus {
+    text-decoration: underline;
+    transition: all .3s ease-in-out;
+    width: 50%;
+}
+
+.socials img {
+    margin-right: 1em;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.footer-bottom p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FAAA55;
+}
